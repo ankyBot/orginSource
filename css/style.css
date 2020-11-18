@@ -49,6 +49,11 @@ header{
   text-decoration: none;
 }
 
+.active-link{
+  color: #84B639!important;
+  font-weight: bold;
+}
+
 .nav-links a:hover{
   color: #84B639;
   transition: color 0.2s ease-in-out;
