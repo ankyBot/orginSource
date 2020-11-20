@@ -45,7 +45,7 @@ header{
 
 .nav-links a{
   color: black;
-  margin: 0 0.5rem;
+  margin-right: 0.5rem;
   text-decoration: none;
 }
 
@@ -59,8 +59,8 @@ header{
   transition: color 0.2s ease-in-out;
 }
 
-main{
-  height: 100vh;
+.mb-1{
+  margin-bottom: 1rem;
 }
 
 footer{
@@ -84,7 +84,7 @@ footer{
   margin-right: 0.5rem;
 }
 
-.footer-heading{
+.heading{
   margin-bottom: 0.5rem;
 }
 
@@ -121,3 +121,62 @@ footer{
 .fa-whatsapp{background-color: #25D366;}
 .fa-twitter{background-color: #55acee;}
 .fa-pinterest{background-color: #bd081c;}
+
+.section-img{
+  width: 500px;
+  height: auto;
+}
+
+main{
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section{
+  max-width: 50%;
+}
+
+.contact-link{
+  margin-top: 1rem;
+}
+
+.contact-link a{
+  color: black;
+  text-underline-position: under;
+}
+
+.contact-link a:hover{
+  color: #84B639;
+  transition: color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 992px){
+  .footer-main{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
+  .sm-btn{
+    margin: 0 0.5rem;
+  }
+  main{
+    flex-wrap: wrap-reverse;
+  }
+  section{
+    max-width: 85%;
+  }
+  .center-text{
+    text-align: center;
+  }
+  .section-img{
+    width: 300px;
+ }
+  .about-us-main{
+    justify-content: center;
+  }
+}
